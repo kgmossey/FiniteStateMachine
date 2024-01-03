@@ -76,7 +76,7 @@ To check either the current state, or peek at the previous state, use the follow
     <FSM>.getPreviousState()           // returns the State object of the previous state
     <FSM>.getPreviousStateID()         // returns the previous State objects ID if it was set
     <FSM>.isInState(State);            // returns true if the State object parameter matches the current state
-                                       // example use: if(MySM.getCurrentState(Somestate)) { // do something }
+                                       // example use: if(MySM.isInState(Somestate)) { // do something }
 
 States can be optionally configured with an execution order. If it's configured use the following to transition the next state in the order:
 
