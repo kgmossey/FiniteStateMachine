@@ -7,8 +7,8 @@ At a minimum, each State in this state machine must have a function that fires w
 ## Table of Contents 
 - [Requirements](#Requirements)
 - [Installation](#installation)
-- [Quick Start](#Quick Start)
-- [Function Reference](#Function Reference)
+- [Quick Start](#Quick-Start)
+- [Function Reference](#Function-Reference)
 - [Credits](#Credits)
 
 ## Requirements
