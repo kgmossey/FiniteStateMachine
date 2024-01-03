@@ -7,13 +7,12 @@ At a minimum, each State in this state machine must have a function that fires w
 ## Table of Contents 
 - [Requirements](#Requirements)
 - [Installation](#installation)
-- [Quick Start](#Quick_Start)
-- [Function Reference](#Function_Reference)
+- [Quick Start](#Quick Start)
+- [Function Reference](#Function Reference)
 - [Credits](#Credits)
 
 ## Requirements
-- Arduino.h
-- Wire.h 
+- Arduino.h 
 
 ## Installation
 Using command line git, you can install this as a submodule with:
@@ -49,7 +48,7 @@ Create a new state machine, the active starting state is *current*. There is a b
 
     FSM NewStateMachine(CurrentState);
   
-Transition from the current state to a new state: (replace <FSM> with the declared state machine variable name)
+Transition from the current state to a new state: (replace \<FSM> with the declared state machine variable name)
 
     <FSM>.transitionTo(NewState);
 
